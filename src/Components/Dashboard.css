@@ -1,0 +1,107 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .dashboard-background {
+    background-image: url('C:/Users/91842/Desktop/my-wardrobe/bg2.jpg'); 
+    background-color: pink;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 700px; /* Adjust the height as needed */
+  }
+  .dashboard-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .dashboard-text h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .dashboard-content {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 20px;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .register-button {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #333333;
+  }
+  
+  .dashboard-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 300px;
+    height: 500px;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, ease, border-color 0.3s, transform 0.3s;
+    border: 1px solid #000000;
+  }
+  
+  .dashboard-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #08e0ec;
+    border-radius: 20px;
+    border-width: 4px;
+    transform: scale(1.1);
+  }
+  
+  .dashboard-section img {
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    
+  }
+  
+  .dashboard-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: aliceblue;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

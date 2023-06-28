@@ -1,0 +1,60 @@
+.Items-container {
+  background-image: url('C:/Users/91842/Desktop/my-wardrobe/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Items-container form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+/* .Items-form label {
+  display: block;
+  margin-bottom: 5px;
+} */
+
+.Items-container input {
+  width: 100%;
+  max-width: 380px; /* Adjust the maximum width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Items-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Items-container form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Items-container button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Items-container link {
+  color: black;
+}
+.viewallitems{
+  text-align: center;
+  margin-top: 10px;
+}
